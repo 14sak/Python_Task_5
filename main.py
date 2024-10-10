@@ -5,7 +5,7 @@ from two.get_userIN import getDate
 
 def main(): 
     user_data = INPUT()
-    output = extractNums(user_data['input'])
+    output = extractNums(user_data)
     print(f'Extracted numbers from string={output}')
 
     print('---')
